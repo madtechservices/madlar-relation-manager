@@ -1,0 +1,21 @@
+<?php
+
+namespace {{ namespace }};
+
+
+use TomatoPHP\TomatoRelationManager\Contracts\RelationManagerAbstract;
+use {{ use }};
+
+class {{ className }} extends RelationManagerAbstract
+{
+
+    public string $name="{{ title }}";
+    public string $relation="{{ relationName }}";
+
+
+    public function render():void
+    {
+
+        $this->table= new {{ tableName }}($this->ownerModel->{$this->relation}->toQuery());
+    }
+}

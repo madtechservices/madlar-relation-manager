@@ -1,0 +1,38 @@
+{
+    "name": "tomatophp/tomato-relation-manager",
+    "type": "library",
+    "description": "Relation Manager For Laravel TomatoPHP Splade",
+    "keywords": [
+        "php",
+        "laravel",
+        "template"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomatoPHP\\TomatoRelationManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\TomatoRelationManager\\TomatoRelationManagerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Khaled abodaif",
+            "email": "khaled.abodaif@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "tomatophp/console-helpers": "^1.0"
+    }
+}
