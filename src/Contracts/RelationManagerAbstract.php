@@ -16,6 +16,7 @@ abstract class RelationManagerAbstract
     public string $showModal='slideover';
     public string $createModal='slideover';
     public string $editModal='slideover';
+    public int $count=0;
 
 
     /**
@@ -26,7 +27,9 @@ abstract class RelationManagerAbstract
      */
     public function __construct(protected Model $ownerModel)
     {
-        $this->render();
+        $this->count=count($this->ownerModel->{$this->relation});
+        if($this->count)
+            $this->render();
     }
 
     /*
