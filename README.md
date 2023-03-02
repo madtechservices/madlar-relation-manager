@@ -1,4 +1,6 @@
-# Tomato relation manager
+![Screenshot](https://github.com/tomatophp/tomato-relation-manager/blob/master/art/screenshot.png)
+
+# Tomato Relation Manager
 
 Relation Manager For Laravel Tomato Splade
 
@@ -7,37 +9,6 @@ Relation Manager For Laravel Tomato Splade
 ```bash
 composer require tomatophp/tomato-relation-manager
 ```
-after install your package please run this command
-
-```bash
-php artisan tomato-relation-manager:install
-```
-
-## Publish Assets
-
-you can publish config file by use this command
-
-```bash
-php artisan vendor:publish --tag="tomato-relation-manager-config"
-```
-
-you can publish views file by use this command
-
-```bash
-php artisan vendor:publish --tag="tomato-relation-manager-views"
-```
-
-you can publish languages file by use this command
-
-```bash
-php artisan vendor:publish --tag="tomato-relation-manager-lang"
-```
-
-you can publish migrations file by use this command
-
-```bash
-php artisan vendor:publish --tag="tomato-relation-manager-migrations"
-```
 
 ## Support
 
@@ -45,7 +16,7 @@ you can join our discord server to get support [TomatoPHP](https://discord.gg/Xq
 
 ## Docs
 
-you can check docs of this package on [Docs](https://docs.tomatophp.com/plugins/laravel-package-generator)
+you can check docs of this package on [Docs](https://docs.tomatophp.com/plugins/tomato-relation-manager)
 
 ## Changelog
 
@@ -57,7 +28,7 @@ Please see [SECURITY](SECURITY.md) for more information about security.
 
 ## Credits
 
-- [Tomatophp](mailto:khaled.abodaif@yahoo.com)
+- [Khaled Abodaif](mailto:khaled.abodaif@yahoo.com)
 
 ## License
 
