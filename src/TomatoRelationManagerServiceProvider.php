@@ -17,7 +17,6 @@ class TomatoRelationManagerServiceProvider extends ServiceProvider
             TomatoRelationManagerInstall::class
        ]);
 
-        Blade::component('tomato-relation-manager', RelationManager::class);
         $this->mergeConfigFrom(
             __DIR__.'/../config/tomato-relation-manager.php', 'tomato-relation-manager'
         );
@@ -39,6 +38,7 @@ class TomatoRelationManagerServiceProvider extends ServiceProvider
     public function boot(): void
     {
 
+        Blade::component('tomato-relation-manager', RelationManager::class);
 
 
     }
