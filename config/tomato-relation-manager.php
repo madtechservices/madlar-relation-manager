@@ -1,5 +1,5 @@
 <?php
 
 return [
-    "stubs-path" => "packages/tomatophp/tomato-relation-manager/stubs",
+    "stubs-path" => "vendor/tomatophp/tomato-relation-manager/stubs",
 ];
