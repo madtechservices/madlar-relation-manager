@@ -9,6 +9,7 @@ use ProtoneMedia\Splade\AbstractTable;
 abstract class RelationManagerAbstract
 {
     public AbstractTable $table;
+    public bool $canCreate=false;
     public bool $canShow=false;
     public bool $canEdit=false;
     public bool $canDelete=false;
