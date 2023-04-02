@@ -26,7 +26,7 @@ abstract class RelationManagerAbstract
      * call render method
      * @param Model $ownerModel
      */
-    public function __construct(protected Model $ownerModel)
+    public function __construct(public Model $ownerModel)
     {
         $this->count=count($this->ownerModel->{$this->relation});
         if($this->count)
